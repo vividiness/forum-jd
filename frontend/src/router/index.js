@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import UserList from '../components/UserList.vue';
 import UserForm from '../components/UserForm.vue';
 import UserDetail from '../components/UserDetail.vue';
+import TopicHome from '@/components/TopicHome.vue';
 
 const routes = [
   {
@@ -24,6 +25,12 @@ const routes = [
     path: '/users/edit/:id',
     name: 'EditUser',
     component: UserForm,
+    props: true
+  },
+  {
+    path: '/topics/',
+    name: 'TopicHome',
+    component: TopicHome,
     props: true
   }
 ];
