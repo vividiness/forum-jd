@@ -1,7 +1,6 @@
 <template>
     <div id="app">
       <header class="top-bar">
-
         <a class="prefeitura-logo" href="https://jd.fortaleza.ce.gov.br/" target="_blank">
             <img src="../assets/logo-pref.png" alt="Logo da Prefeitura"/>
         </a>
@@ -34,8 +33,8 @@
         <!-- Conteúdo principal vai aqui -->
       </main>
     </div>
+    
   </template>
   
 <style lang="css" src="../styles/main.css"></style>
 <style lang="css" src="../styles/layout.css"></style>
-  
