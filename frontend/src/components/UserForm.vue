@@ -1,24 +1,26 @@
+
+  
+
 <template>
   <div>
     <h1>{{ isEdit ? 'Edit User' : 'Create User' }}</h1>
     <form @submit.prevent="handleSubmit">
-      <div>
-        <label>Username</label>
+      <div id="Usuario">
+        <label>Username: </label>
         <input v-model="user.username" required />
       </div>
       <div>
-        <label>Email</label>
+        <label id="email">Email: </label>
         <input v-model="user.email" type="email" required />
       </div>
       <div>
-        <label>Password</label>
+        <label>Password: </label>
         <input v-model="user.password" type="password" required />
       </div>
-      <button type="submit">Submit</button>
+      <center><button type="submit">Submit</button></center>
     </form>
   </div>
 </template>
-
 <script>
 import axios from 'axios';
 
@@ -65,6 +67,10 @@ export default {
 </script>
 
 <style scoped>
+
+template{
+  background-color: aqua;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -72,8 +78,13 @@ form {
   margin: auto;
 }
 
+
+
 div {
   margin-bottom: 1em;
+
+ 
+
 }
 
 label {
@@ -84,11 +95,31 @@ label {
 input {
   padding: 0.5em;
   font-size: 1em;
-}
+  border-radius: 3px;
+  background:rgba(255, 255, 255, 0.842) ;
+        text-align:justify;
+        border-radius: 6px;
+        margin:auto;
+        box-shadow: 5px 5px 5px;
+        width: 200px;
+        height: 3px;
 
+}
+#email{
+
+        width: 400px;
+        height: 22220px;
+}
 button {
   padding: 0.5em;
   font-size: 1em;
   cursor: pointer;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 13px;
+  width: 70px;
+  height: 30px;
+
+
 }
 </style>
