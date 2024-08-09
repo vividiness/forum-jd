@@ -21,8 +21,7 @@
         </nav>
 
         <div class="user-info"> 
-            <img src="../assets/user-icon.png"/>
-          <button>USUARIO</button>
+          <button><i class="bi bi-person-circle"></i> USUARIO</button>
         </div>
       </header>
 
@@ -34,9 +33,18 @@
         <a href="#"><i class="bi bi-zoom-in"></i> Explorar</a>
         <a href="#"><i class="bi bi-layout-text-window"></i> Criar Feed Personalizado</a>
         <a href="#"><i class="bi bi-star"></i> Favoritos</a>
+        
+        
       </aside>
+      <footer>
+        <img src="../assets/logo-pref.png" class="photo-pref" alt="Logo da Prefeitura"/>
+        <strong class="local-front">Fundação de Ciência, Tecnologia e Inovação de Fortaleza – Citinova</strong>
+        <p class="local-back">Rua dos Pacajús, nº 33 - Praia de Iracema, Fortaleza - CE |</p>
+          <p class="local-mid"> CEP: 60060-520</p>
 
+        <button class="talk"> Fale conosco</button>
 
+      </footer>
       <main class="content">
         <!-- Conteúdo principal vai aqui -->
       </main>

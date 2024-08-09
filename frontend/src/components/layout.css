@@ -1,0 +1,115 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  margin-top: 0px;
+}
+
+.prefeitura-logo img {
+  display: flex;
+  height: 100%;
+  max-height: 40px;
+}
+
+.top-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #009688;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.top-nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  display: inline-block; /* Necessário para que o padding e o fundo funcionem corretamente */
+
+}
+a:hover {
+  color: #000000; /* Muda a cor do link quando o cursor passa sobre ele */
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao texto */
+}
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info button {
+  background-color: #009688;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.side-bar {
+  width: 200px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 200px;
+  height: 1000px;
+}
+
+.side-bar a {
+  margin-bottom: 10px;
+  color: black;
+  text-decoration: none;
+ 
+}
+
+.content {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+footer{
+  padding: 5px 10px;
+
+  text-align: center;
+  width: 2000px;
+  height: 230px;
+  position: static; left: 650px;
+  position: static; top: 450px;
+  color: #000000;
+  background-color: #009688  ;
+  background-size: 50%;
+}
+
+.talk{
+width: 100px;
+height: 30px;
+position: relative; right: 140px;
+position: relative; bottom: 20px;
+background-color: #ffffff00;
+border-radius:5px ;
+
+}
+.photo-pref{
+  position: relative; right: 130px;
+  position: relative; top: 20px;
+  
+
+}
+
+.local-front{
+  position: relative; right: 80px;
+  position: relative; bottom: 20px;
+}
+.local-back{
+  position: relative; left: 23px;
+  position: relative; bottom: 20px;
+}
+.local-mid{
+  position: relative; right: 130px;
+  position: relative; bottom: 20px;
+
+
+}
